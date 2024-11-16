@@ -1,0 +1,22 @@
+.container{
+    height:500px;
+    width:800px;
+   
+    background-color: brown;
+    border: 2px solid black;
+     display: flex;
+     justify-content:flex-start;
+     align-items:center;
+     flex-wrap: wrap;
+     align-content:flex-start;
+    
+}
+.box{
+    height:32px;
+    width:32px;
+    background-color:rgb(23, 229, 229);
+    margin:5px;
+    
+    
+
+}

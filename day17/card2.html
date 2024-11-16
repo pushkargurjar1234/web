@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card2</title>
+</head>
+<style>
+    .container{
+        height:100vh;
+        width:100vw;
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        }
+        .card{
+            width:400px;
+            height:600px;
+            background-color:white;
+            border-radius: 20px;
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+
+
+
+        }
+        .topbox img{
+            width:400px;
+            height:180px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .middlebox{
+            padding:20px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .middlebox h2{
+            font-size:1.6rem;
+            font-weight: bold;
+        }
+        .middlebox p{
+            font-size:1.1rem;
+            font-weight:700;
+            text-align: center;
+
+        }
+        .box1{
+            width:350px;
+            height:50px;
+            background-color: #8EC5FC;
+            display:flex;
+            justify-content: space-between;
+            border-radius:10px;
+
+        }
+
+        .leftbox{
+            display:flex;
+
+        }
+
+        .leftbox img{
+            height:50px;
+            width:50px;
+        }
+        .leftbox p{
+            align-self: center;
+        }
+        .rightbox {
+            align-self: center;
+            padding:30px;
+        }
+
+        .btn button{
+            height:50px;
+            width:350px;
+            background-color:rgb(19, 19, 70);
+            color:white;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            box-shadow: 0px 10px 1px rgba(0, 0, 0, 0.155);
+           
+            
+        }
+        .bottombox{
+            display:flex;
+            flex-direction:column;
+            gap:20px;
+        }
+        .bottombox a{
+            align-self: center;
+            text-decoration: none; 
+            color:black;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="topbox">
+                <img src="New-Project-18.jpg" alt="img">
+        </div>
+        <div class="middlebox">
+            <h2>Order summary</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni recusandae suscipit tempora quidem consequuntur, nisi alias consequatur!</p>
+
+        </div>
+        <div class="bottombox">
+            <div class="box1">
+                <div class="leftbox">
+                    <img src="Applemusicandroid-512.webp" alt="icon">
+                    <p>Annaul plan <br> $99.9/year </p>
+                </div>
+                <div class="rightbox"><a href="#">Change</a></div>
+            </div>
+
+            <div class="btn"><button>Proceed to payment</button></div>
+            <a href="#">Cancel Order</a>
+        </div>
+
+        
+    </div>
+</body>
+</html>

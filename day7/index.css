@@ -1,0 +1,33 @@
+h1{
+    padding-left:10px;
+    color:#401F71;
+    border-style:solid;
+    border-radius:15px;
+    border-top-left-radius:0px;
+    margin-bottom:50px;
+}
+div{
+    height: 100px;
+    width:550px;
+    color:#401F71;
+    background-color:#FDAF7B;
+   
+
+    border-width:5px;
+    border-style:solid;
+    border-color:#000;
+    border-left:10px double;
+    border-radius:25px;
+    padding:10px;
+    padding-left:20px;
+    margin-bottom:30px;
+    
+}
+button{
+    background-color:rgb(247, 174, 255);
+    border-style:solid;
+    border-width:3px;
+    border-color:#401F71;
+    border-radius:10px;
+    padding:2px
+}

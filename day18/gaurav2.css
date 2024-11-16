@@ -1,0 +1,121 @@
+.container {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.rightside {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 20px;
+    font-size: 1.1rem;
+}
+
+.leftbox {
+    margin-left: 50px;
+    font-size: 1.5rem;
+    ;
+}
+
+.rightbox {
+    margin-right: 50px;
+}
+
+
+.main {
+    height: 85vh;
+    width: 100%;
+    background-color: #e0ebff;
+    background-image: linear-gradient(62deg, #ffffff 0%, #444246 100%);
+    display: flex;
+    align-items: center;
+    padding: 70px;
+
+}
+
+.leftmain {
+    width: 50%;
+    height: 100%;
+
+    align-content: center;
+
+
+}
+
+.leftmain h3 {
+    font-size: 3em;
+    font-weight: 500;
+    margin: auto;
+}
+
+.leftmain h2 {
+    font-size: 5em;
+    font-weight: 600;
+    margin: auto;
+}
+
+.leftmain p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.leftmain button {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #838285;
+    color: white;
+
+    font-size: 1.1rem;
+}
+
+.rightmain {
+    height: 500px;
+    width: 500px;
+
+    border-radius: 20px;
+
+}
+
+.rightmain img {
+    border-radius: 100%;
+}
+
+
+
+.footer h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+
+
+}
+
+
+.footer .social_media {
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+
+.footer .social_media a {
+    color: black;
+    margin-right: 60px;
+    font-size: 2rem;
+
+}

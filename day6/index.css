@@ -1,0 +1,66 @@
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27
+}
+#login{
+    color: black;
+    background-color: #e990a3;
+}
+#signup{
+
+    color: black;
+    background-color: #e990a3;
+}
+.follow{
+    color: #b92b27;
+}
+
+.a{
+    background-color: #e990a3;
+}
+
+ .post a {
+    color: #fcfcfc;
+    background-color: #e990a3;
+}
+nav ul li a{
+    color: #b92b27;
+}
+nav ul li {
+    color: #b92b27;
+}
+
+p+h3{
+    text-decoration: underline;
+}
+.a+button{
+    color: #1d964a;
+}
+
+button:hover{
+    color:#b92b27;
+    background-color: #dfeca7;
+}
+
+button:active{
+    color:black;
+    background-color:aqua;
+}
+
+
+
+div:nth-of-type(n){
+    background-color:rgb(255, 255, 235);
+}
+
+h1::first-letter{
+    color:black;
+}
+
+
+
+p::selection{
+    color:darkorchid;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid4</title>
+  </head>
+  <style>
+    .container {
+        margin:0;
+        padding:0;
+        background-color:coral;
+        height:100vh;
+        width:100vw;
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr  1fr 1fr;
+        gap:10px;
+
+    }
+    .item{
+        background-color:firebrick
+    }
+
+
+    .imt1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color:cornflowerblue;
+    }
+
+    .imt7{
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color:chartreuse;
+
+    }
+    .itm12{
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+
+    .itm13{
+        grid-row-start: 5;
+        grid-row-end: 6;
+        background-color:plum;
+        
+    }
+
+    .itm9, .itm10{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color:darkcyan;
+
+    }
+    .itm11{
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-color:lightpink;
+    }
+
+    .imt4{
+        
+    }
+
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="item imt1">1</div>
+      <div class="item imt2">2</div>
+      <div class="item imt3">3</div>
+      <div class="item imt4">4</div>
+      <div class="item imt5">5</div>
+      <div class="item imt6">6</div>
+      <div class="item imt7">7</div>
+      
+      <div class="item itm9">9</div>
+      <div class="item itm10">10</div>
+      <div class="item itm11">11</div>
+      <div class="item itm12">12</div>
+      <div class="item itm13">13</div>
+    </div>
+  </body>
+</html>

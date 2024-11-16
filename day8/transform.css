@@ -1,0 +1,25 @@
+div{
+   
+    height:40px;
+    width:300px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-of-type(2n){
+    background-color: brown;
+}
+ 
+#one{
+    transform: rotate(45deg);
+}
+#two{
+    transform:scale(.5);
+}
+#three{
+    transform:translatey(-100px );
+}
+#four{
+    transform:skew(45deg);
+}

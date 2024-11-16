@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid container</title>
+
+    <style>
+        .container{
+            height: 500px;
+            width:1000px;
+            background-color: black;
+            display:grid;
+            grid-template-rows: repeat(5,1fr);
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 10px;
+           
+        }
+
+        .box{
+
+            /* height:100px;
+             width:200px;*/
+            color:black;
+            background-color: greenyellow;
+            border:5px solid rgb(216, 7, 7);
+            text-align: center;
+
+        }
+
+        .sec{
+            grid-row:1/5;
+        }
+
+    
+        .hhx{
+            
+            color:black;
+            background-color: greenyellow;
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+       
+
+
+
+    </style>
+</head>
+<body>
+    <h1>grid playground</h1>
+       
+        <div class="container">
+        <div class="box hhx">1</div>
+        <div class="box sec">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+</body>
+</html>

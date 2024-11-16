@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    .container{
+        background-color:aquamarine;
+        
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .square{
+        background-color: #1dabab;
+       
+        margin:20px;
+    }
+    .square2{
+        background-color: #21a743;
+       
+        margin:20px;
+    }
+
+    .box2{
+        background-color: #d213c2;
+        width:500px;
+        height:500px;
+        margin:20px;
+    }
+
+@media (max-width: 640px){
+  .container{
+        display:flex;
+        flex-direction: column;
+
+    }
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="square" id="boxy">square 1</div>
+            <div class="square2" id="boxy">square 2</div>
+
+        </div> 
+        <div class="box2">
+            
+        </div>
+    </div>
+</body>
+</html>

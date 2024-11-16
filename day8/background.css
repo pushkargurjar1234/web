@@ -1,0 +1,9 @@
+div{
+    height:400px;
+    width:600px;
+    background-color: rgba(0, 191, 255, 0.77);
+    margin: 10px auto;
+    background-image: url("susan-wilkinson-ZetwokUSHx4-unsplash.jpg");
+    background-size:cover;
+
+}
